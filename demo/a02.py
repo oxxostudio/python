@@ -33,6 +33,7 @@ while (result != answer):
             else:
                 b += 1
 
-    print('第 ' + str(n) + ' 次：' + user + ' ( ' + str(a) + ' A ' + str(b) + ' B )')
-else: 
+    print('第 ' + str(n) + ' 次：' + user +
+          ' ( ' + str(a) + ' A ' + str(b) + ' B )')
+else:
     print('猜中囉')
