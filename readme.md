@@ -13,4 +13,6 @@
 - [多線程 ( asyncio + 回傳值 )](demo/a13.py)
 - [requests GET 測試](demo/a05.py)
 - [requests GET 讀取資料後寫入 txt](demo/a06.py)
+- [讀取 CSV 並轉成 dict 格式](demo/a16.py)
+- [requests GET 讀取資料寫入 CSV](demo/a15.py)
 - [初探 numpy 陣列](demo/a14.py)
