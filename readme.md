@@ -1,6 +1,6 @@
 # Python 練習
 
-## Basic
+## Demo
 
 - [猜數字 ( 比大小簡易版 )](demo/a01.py)
 - [猜數字 ( 幾 A 幾 B )](demo/a02.py)
@@ -19,12 +19,11 @@
 - [requests GET 讀取資料寫入 CSV](demo/a15.py)
 - [初探 numpy 陣列](demo/a14.py)
 
-----
-
 ## Random
 
 - [random.seed](random/r01-seed.py)
-- [random.randrange](random/r02-ranfrange.py)
+- [random.randrange](random/r02-randrange.py)
 - [random.choice](random/r03-choice.py)
+- [random.random](random/r04-random.py)
 
 
