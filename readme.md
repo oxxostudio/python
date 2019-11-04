@@ -1,5 +1,7 @@
 # Python 練習
 
+## Basic
+
 - [猜數字 ( 比大小簡易版 )](demo/a01.py)
 - [猜數字 ( 幾 A 幾 B )](demo/a02.py)
 - [輸入單一文字，取得該文字的 ASCII Code](demo/a03.py)
@@ -16,3 +18,13 @@
 - [讀取 CSV 並轉成 dict 格式](demo/a16.py)
 - [requests GET 讀取資料寫入 CSV](demo/a15.py)
 - [初探 numpy 陣列](demo/a14.py)
+
+----
+
+## Random
+
+- [random.seed](random/r01-seed.py)
+- [random.randrange](random/r02-ranfrange.py)
+- [random.choice](random/r03-choice.py)
+
+
