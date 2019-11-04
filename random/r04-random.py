@@ -29,3 +29,4 @@ print(e)
 # random.paretovariate(alpha)
 # random.weibullvariate(alpha, beta)
 
+# 參考：https://docs.python.org/zh-cn/3/library/random.html#random.random

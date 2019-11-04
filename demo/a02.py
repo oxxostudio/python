@@ -15,7 +15,7 @@ for i in range(4):
 
 
  """
-answer = random.sample([1, 2, 3, 4, 5, 6, 7, 8, 9], k=4)  # 使用 random.sample
+answer = random.sample(range(1,10), k=4)  # 使用 random.sample
 print(answer)
 
 n = 0
