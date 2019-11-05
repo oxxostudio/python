@@ -26,4 +26,6 @@
 - [random.choice](random/r03-choice.py)
 - [random.random](random/r04-random.py)
 
+## Numpy
 
+- [np.array](numpy/np01.py)
