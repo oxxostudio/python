@@ -26,6 +26,14 @@
 - [random.choice](random/r03-choice.py)
 - [random.random](random/r04-random.py)
 
-## Numpy
+## Numpy 練習
 
-- [np.array](numpy/np01.py)
+- [初探 numpy](numpy/np01.py)
+- [數據屬性](numpy/np02.py)
+- [建立數據](numpy/np03.py)
+
+## matplotlib
+
+- [畫第一張圖](matplotlib/m01.py)
+- [圖片顯示中文](matplotlib/m02.py)
+- [一張圖繪製兩個圖表](matplotlib/m03.py)
