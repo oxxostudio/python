@@ -32,8 +32,11 @@
 - [數據屬性](numpy/np02.py)
 - [建立數據](numpy/np03.py)
 
-## matplotlib
+## matplotlib 練習
 
 - [畫第一張圖](matplotlib/m01.py)
 - [圖片顯示中文](matplotlib/m02.py)
 - [一張圖繪製兩個圖表](matplotlib/m03.py)
+- [設定圖表樣式](matplotlib/m04.py)
+- [設置標記提示](matplotlib/m05.py)
+- [散點圖](matplotlib/m06.py)
