@@ -11,10 +11,13 @@ plt.plot(ax, ay, color='red', linewidth=3.0, linestyle='dashed', label='x0.5', z
 plt.plot(ax, by, color='blue', linewidth=2.0, linestyle='solid', label='sin', zorder=2)
 # 繪製垂直虛線
 plt.plot([cx, cx,],[cy, 0,], color='black', linewidth=1.0, linestyle='dashed', zorder=1, alpha=0.5)
-# 加上單一圓點 ( 還不清楚參數設定，待研究... )
+
+# 加上單一圓點
+# https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.scatter.html
 plt.scatter(cx, cy, s=100, color='red', zorder=2)
 
-# 繪製 annotate ( 還不清楚參數設定，待研究... )
+# 繪製 annotate
+# https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.annotate.html
 plt.annotate('test', xy=(cx+0.5, cy-0.2), xycoords='data', xytext=(+36, -36),
              textcoords='offset points', fontsize=12,
              arrowprops=dict(arrowstyle='->', connectionstyle="arc3,rad=.2"))

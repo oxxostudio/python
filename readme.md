@@ -31,6 +31,7 @@
 - [初探 numpy](numpy/np01.py)
 - [數據屬性](numpy/np02.py)
 - [建立數據](numpy/np03.py)
+- [Random](numpy/np04.py)
 
 ## matplotlib 練習
 
