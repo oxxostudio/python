@@ -1,19 +1,31 @@
-# encoding:UTF-8
-# pip3 install numpy
+class human():
+    def __init__(self, name=None):
+        if name:
+            self.name = name
+        else:
+            self.name = '???'
 
-import numpy as np
+    def talk(self, msg):
+        print(f'{self.name}: {msg}')
 
-a = np.array([1, 2, 3])
-b = np.array([4, 5, 6])
-print(a[0], b[1])
+class Taiwan(human):
+    def __init__(self, name, age=None):
+        super().__init__(name)   # 繼承 human 的 name
+        if age:
+            self.age = age
+        else:
+            self.age = '???'
 
-a = np.append(a, b)
-print(a)
 
-d = a[1]
-print(d)
+a = human('oxxo')
+b = human('tom')
+c = human()     # 沒有輸入就採用預設值
+print(a.name)   # oxxo
+print(b.name)   # tom
 
-a2 = np.delete(a, 1)
-print(a2)
-a3 = np.insert(a, 1, d)
-print(a3)
+a.talk('hello')      # oxxo: hello
+b.talk('ya')         # tom: ya
+c.talk('okok!!!!!')  # ???: okok!!!!!
+
+c = Taiwan('qq', 18) 
+print(c.name, c.age) # qq 18

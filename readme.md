@@ -13,11 +13,11 @@
 - [默數秒數誰最準 ( 多線程 threading )](demo/a10.py)
 - [多線程 ( multiprocessing + Lock )](demo/a11.py)
 - [多線程 ( asyncio + 回傳值 )](demo/a13.py)
+- [class](demo/a14.py)
 - [requests GET 測試](demo/a05.py)
 - [requests GET 讀取資料後寫入 txt](demo/a06.py)
 - [讀取 CSV 並轉成 dict 格式](demo/a16.py)
 - [requests GET 讀取資料寫入 CSV](demo/a15.py)
-- [初探 numpy 陣列](demo/a14.py)
 
 ## Random
 
@@ -28,12 +28,13 @@
 
 ## Numpy 練習
 
+- [初探 numpy 陣列](numpy/np00.py)
 - [初探 numpy](numpy/np01.py)
 - [數據屬性](numpy/np02.py)
 - [建立數據](numpy/np03.py)
 - [Random](numpy/np04.py)
 
-## matplotlib 練習
+## Matplotlib 練習
 
 - [畫第一張圖](matplotlib/m01.py)
 - [圖片顯示中文](matplotlib/m02.py)
@@ -41,3 +42,5 @@
 - [設定圖表樣式](matplotlib/m04.py)
 - [設置標記提示](matplotlib/m05.py)
 - [散點圖](matplotlib/m06.py)
+
+## Pygame 練習
