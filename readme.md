@@ -1,6 +1,6 @@
 # Python 練習
 
-## Demo
+## Demo 範例
 
 - [猜數字 ( 比大小簡易版 )](demo/a01.py)
 - [猜數字 ( 幾 A 幾 B )](demo/a02.py)
@@ -19,7 +19,7 @@
 - [讀取 CSV 並轉成 dict 格式](demo/a16.py)
 - [requests GET 讀取資料寫入 CSV](demo/a15.py)
 
-## Random
+## Random 練習
 
 - [random.seed](random/r01-seed.py)
 - [random.randrange](random/r02-randrange.py)
@@ -43,4 +43,10 @@
 - [設置標記提示](matplotlib/m05.py)
 - [散點圖](matplotlib/m06.py)
 
-## Pygame 練習
+## Flask 練習
+
+- [建立簡單 Web API](flask/f01.py)
+- [url_for 與 route](flask/f02.py)
+- [產生網頁樣板 ( Render template )](flask/f03.py)
+- [GET、POST](flask/f04.py)
+- [jinja2 樣板繼承](flask/f05.py)
