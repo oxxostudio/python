@@ -49,4 +49,15 @@
 - [url_for 與 route](flask/f02.py)
 - [產生網頁樣板 ( Render template )](flask/f03.py)
 - [GET、POST](flask/f04.py)
-- [jinja2 樣板繼承](flask/f05.py)
+- [jinja2 樣板](flask/f05.py)
+
+## SQlite 練習
+
+- [建立並存入資料](sqlite/sq01.py)
+- [讀取資料](sqlite/sq02.py)
+- [發送 request 取得資料](sqlite/sq03.py)
+
+## Kivy 練習
+
+- [第一支應用程式](kivy/k01.py)
+- [增加按鈕](kivy/k02.py)

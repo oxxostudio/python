@@ -1,3 +1,4 @@
+# 參考 http://docs.jinkan.org/docs/jinja2/templates.html#template-inheritance
 from flask import  Flask, render_template
 app = Flask(__name__)
 
@@ -7,7 +8,7 @@ def index():
 
 @app.route('/<name>', methods=['GET'])
 def i2(name):
-  return render_template('test.html', name=name) # 可將參數傳給網頁的 {{name}} 接收
+  return render_template('content.html', name=name) # 可將參數傳給網頁的 {{name}} 接收
 
 if __name__ == '__main__':
     app.debug = True
