@@ -50,6 +50,7 @@
 - [產生網頁樣板 ( Render template )](flask/f03.py)
 - [GET、POST](flask/f04.py)
 - [jinja2 樣板](flask/f05.py)
+- [request.args](flask/f06.py)
 
 ## SQlite 練習
 
