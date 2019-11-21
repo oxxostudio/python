@@ -18,6 +18,7 @@
 - [requests GET 讀取資料後寫入 txt](demo/a06.py)
 - [讀取 CSV 並轉成 dict 格式](demo/a16.py)
 - [requests GET 讀取資料寫入 CSV](demo/a15.py)
+- [網頁爬蟲 ( 使用 lxml 爬匯率 )](demo/a17.py)
 
 ## Random 練習
 
