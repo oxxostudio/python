@@ -19,6 +19,7 @@
 - [讀取 CSV 並轉成 dict 格式](demo/a16.py)
 - [requests GET 讀取資料寫入 CSV](demo/a15.py)
 - [網頁爬蟲 ( 使用 lxml 爬匯率 )](demo/a17.py)
+- [股票爬蟲 ( requests + 證交所 )](demo/a18.py)
 
 ## Random 練習
 
@@ -52,6 +53,7 @@
 - [GET、POST](flask/f04.py)
 - [jinja2 樣板](flask/f05.py)
 - [request.args](flask/f06.py)
+- [request.args + 股票爬蟲](flask/f07.py)
 
 ## SQlite 練習
 
