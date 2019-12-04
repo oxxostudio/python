@@ -22,7 +22,8 @@
 - [網頁爬蟲 ( lxml 爬匯率 )](demo/a17.py)
 - [網頁爬蟲 ( 抓單張圖片並儲存 )](demo/a19.py)
 - [網頁爬蟲 ( selenium + 動態網頁 + 下載圖片 )](demo/a20.py)
-- [網頁爬蟲 ( selenium + 訂便當 + 登入 )](demo/a21.py)
+- [網頁爬蟲 ( selenium + 訂便當 + 登入 )](demo/a21.py)
+- [網頁爬蟲 ( selenium + google 搜尋圖片並下載 )](demo/a22.py)
 
 ## Random 練習
 
