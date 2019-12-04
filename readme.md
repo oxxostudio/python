@@ -18,8 +18,11 @@
 - [requests GET 讀取資料後寫入 txt](demo/a06.py)
 - [讀取 CSV 並轉成 dict 格式](demo/a16.py)
 - [requests GET 讀取資料寫入 CSV](demo/a15.py)
-- [網頁爬蟲 ( 使用 lxml 爬匯率 )](demo/a17.py)
 - [股票爬蟲 ( requests + 證交所 )](demo/a18.py)
+- [網頁爬蟲 ( lxml 爬匯率 )](demo/a17.py)
+- [網頁爬蟲 ( 抓單張圖片並儲存 )](demo/a19.py)
+- [網頁爬蟲 ( selenium + 動態網頁 + 下載圖片 )](demo/a20.py)
+- [網頁爬蟲 ( selenium + 訂便當 + 登入 )](demo/a21.py)
 
 ## Random 練習
 
