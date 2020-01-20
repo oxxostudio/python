@@ -28,10 +28,10 @@ check = driver.find_element_by_xpath(
 
 # 計算驗證碼
 checktext = checkquestion.text
-a = int(re.findall("\d+",checktext)[0])   # 使用正則表達式提取數字
-b = int(re.findall("\d+",checktext)[1])
-result = a+b
 print(checktext)
+a = int(re.findall(r'\d+',checktext)[0])   # 使用正則表達式提取數字
+b = int(re.findall(r'\d+',checktext)[1])
+result = a+b
 print(result)
 check.send_keys(result)  # 輸入驗證碼
 
@@ -42,9 +42,13 @@ btn.click()
 
 time.sleep(1)
 
-# 抓取第一筆便當名稱
-menu = driver.find_element_by_xpath(
-    '//*[@id="inProgressBox_inProgressOrders_0"]/td[2]/div[1]/a/span[2]')
+# 抓取第一筆便當名稱，加入例外處理
+try:
+    menu = driver.find_element_by_xpath(
+        '//*[@id="inProgressBox_inProgressOrders_0"]/td[2]/div[1]/a/span[2]')
 
-print(menu.text)
+    print(menu.text)
+except:
+    print('找不到便當名稱')
+
 driver.close()

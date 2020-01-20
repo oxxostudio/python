@@ -70,3 +70,7 @@
 
 - [第一支應用程式](kivy/k01.py)
 - [增加按鈕](kivy/k02.py)
+
+## 圖片處理
+
+- [修改 Exif 檔](image/exif.py)
